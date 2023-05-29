@@ -6,11 +6,11 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class game : MonoBehaviour {
-	private const string leaderBoardField = "CgkIk8W1wvgLEAIQBQ";
-	private const string leaderBoardJetcity = "CgkIk8W1wvgLEAIQBw";
-	private const string leaderBoardNightisland = "CgkIk8W1wvgLEAIQCA";
-	private const string leaderBoardCarrier = "CgkIk8W1wvgLEAIQCQ";
-	private const string leaderBoardDesertStorm = "CgkIk8W1wvgLEAIQCg";
+	private const string leaderBoardField = "";
+	private const string leaderBoardJetcity = "";
+	private const string leaderBoardNightisland = "";
+	private const string leaderBoardCarrier = "";
+	private const string leaderBoardDesertStorm = "";
 	private string leaderBoardstring = null;
 	public Sprite fastForwardSpeed;
 	public Sprite normalSpeed;
