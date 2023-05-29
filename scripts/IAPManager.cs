@@ -10,12 +10,12 @@ public class IAPManager : MonoBehaviour , IStoreListener {
 	private static IStoreController m_StoreController;          // The Unity Purchasing system.
 	private static IExtensionProvider m_StoreExtensionProvider; // The store-specific Purchasing subsystems.
 
-	public static string product_coins_5000 = "coins_5000";
-	public static string product_coins_10000 = "coins_10000";
-	public static string product_no_Ads = "remove_ads";
-	public static string product_4_crash = "crash_4";
-	public static string product_unlimited_ILS = "unlimited_ils";
-	public static string product_unlock_all = "unlock_all_levels";
+	public static string product_coins_5000 = "";
+	public static string product_coins_10000 = "";
+	public static string product_no_Ads = "";
+	public static string product_4_crash = "";
+	public static string product_unlimited_ILS = "";
+	public static string product_unlock_all = "";
 	public Text price5000;
 	public Text price10000;
 	public Text priceILS;
